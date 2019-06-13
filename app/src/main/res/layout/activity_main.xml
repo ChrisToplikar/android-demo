@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/field"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:textStyle="bold"
+                android:textColor="#FF00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 1" />
+
+            <TextView
+                android:id="@+id/myLabel1"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#FF00"
+                android:layout_height="wrap_content"
+                android:text="Player 1 Fly" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:onClick="resetGame"
+                android:layout_height="wrap_content"
+                android:text="Play Again" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:textColor="#001AFF"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Player 2" />
+
+            <TextView
+                android:id="@+id/myLabel2"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:textColor="#001AFF"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Player 2 Fly" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:onClick="buttonAPressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flight A" />
+
+            <Button
+                android:id="@+id/button2"
+                android:onClick="buttonBPressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flight B" />
+
+            <Button
+                android:id="@+id/button3"
+                android:onClick="buttonCPressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flight C" />
+
+            <Button
+                android:id="@+id/button4"
+                android:onClick="buttonDPressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pass" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drone2"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <ImageView
+        android:id="@+id/starImage"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        app:srcCompat="@android:drawable/star_on"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+</android.support.constraint.ConstraintLayout>

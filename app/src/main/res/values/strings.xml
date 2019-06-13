@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimpleGame_ctopl2</string>
+    <string name="action_settings">Settings</string>
+    <string name="win">Wins</string>
+    <string name="losses">Losses</string>
+    <string name="player">Player</string>
+    <string name="Enemy">Enemy</string>
+    <string name="exit">Exit</string>
+    <string name="score">score</string>
+</resources>
