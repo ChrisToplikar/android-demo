@@ -22,7 +22,7 @@ res Directory: This directory contains the image files used in the game.
 Testing was done on different players and gameplay.
 
 ## Demonstration
-Here is an example of the application running.
+
 ![alt text][logo]
 
 [logo]: https://github.com/ChrisToplikar/android-demo/blob/master/Android%20game%20demo.jpg?raw=true
